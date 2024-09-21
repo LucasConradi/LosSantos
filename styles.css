@@ -1,0 +1,58 @@
+titulo {
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+}
+
+.subtitulo {
+    background-color: red;
+    color: white;
+}
+
+#menu {
+    list-style: none;
+}
+
+#menu li {
+    float: left;
+    margin-right: 10px; /* adicionamos uma margem à direita para separar os itens do menu */
+}
+
+#menu li a {
+    padding: 10px;
+    text-decoration: none;
+    color: black; /* adicionamos uma cor ao texto do link */
+}
+
+.texto {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    text-shadow: 3px 3px 3px #ababab;
+    color: white;
+    text-decoration-line: underline;
+    font-weight: bold;
+    line-height: 90%;
+    background-color: green;
+}
+
+table {
+    width: 100%; /* fazemos a tabela ocupar toda a largura da página */
+    border-collapse: collapse; /* removemos as bordas duplas entre as células */
+}
+
+table td {
+    border: 1px solid #ddd; /* adicionamos uma borda às células */
+    padding: 8px; /* adicionamos um padding para dar espaço ao texto dentro das
+
+celulas */
+}
+
+tr:nth-child(even) {
+    background: #e9e9e9;
+}
+
+tr:nth-child(odd) {
+    background: #bdbdbd;
+}
