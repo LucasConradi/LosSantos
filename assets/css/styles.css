@@ -15,13 +15,13 @@ titulo {
 
 #menu li {
     float: left;
-    margin-right: 10px; /* adicionamos uma margem à direita para separar os itens do menu */
+    margin-right: 10px; 
 }
 
 #menu li a {
     padding: 10px;
     text-decoration: none;
-    color: black; /* adicionamos uma cor ao texto do link */
+    color: black; 
 }
 
 .texto {
@@ -38,15 +38,13 @@ titulo {
 }
 
 table {
-    width: 100%; /* fazemos a tabela ocupar toda a largura da página */
-    border-collapse: collapse; /* removemos as bordas duplas entre as células */
+    width: 100%; 
+    border-collapse: collapse; 
 }
 
 table td {
-    border: 1px solid #ddd; /* adicionamos uma borda às células */
-    padding: 8px; /* adicionamos um padding para dar espaço ao texto dentro das
-
-celulas */
+    border: 1px solid #ddd; 
+    padding: 8px; 
 }
 
 tr:nth-child(even) {
